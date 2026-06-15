@@ -1,0 +1,160 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "forms": [
+      {
+        "name": "SleepCard",
+        "displayName": "$string:SleepCard",
+        "description": "$string:SleepCardDesc",
+        "src": "./ets/widget/pages/SleepCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      },
+      {
+        "name": "ExpressCard",
+        "displayName": "$string:ExpressCard",
+        "description": "$string:ExpressCardDesc",
+        "src": "./ets/widget/pages/ExpressCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      },
+      {
+        "name": "SportsCard",
+        "displayName": "$string:SportsCard",
+        "description": "$string:SportsCardDesc",
+        "src": "./ets/widget/pages/SportsCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      },
+      {
+        "name": "MusicCard",
+        "displayName": "$string:MusicCard",
+        "description": "$string:MusicCardDesc",
+        "src": "./ets/widget/pages/MusicCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      },
+      {
+        "name": "WeatherCard",
+        "displayName": "$string:WeatherCard",
+        "description": "$string:WeatherCardDesc",
+        "src": "./ets/widget/pages/WeatherCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      },
+      {
+        "name": "SmartHomeCard",
+        "displayName": "$string:SmartHomeCard",
+        "description": "$string:SmartHomeCardDesc",
+        "src": "./ets/widget/pages/SmartHomeCard.ets",
+        "uiSyntax": "arkts",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "colorMode": "auto",
+        "isDefault": false,
+        "updateEnabled": true,
+        "scheduledUpdateTime": "00:00",
+        "updateDuration": 1,
+        "defaultDimension": "2*2",
+        "supportDimensions": [
+          "2*2"
+        ]
+      }
+    ],
+    "requestPermissions": []
+  }
+}

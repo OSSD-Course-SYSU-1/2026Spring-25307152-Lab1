@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "互动卡片演示"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "入口Ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "互动卡片"
+    },
+    {
+      "name": "SleepCard",
+      "value": "睡眠卡片"
+    },
+    {
+      "name": "SleepCardDesc",
+      "value": "睡眠健康互动卡片"
+    },
+    {
+      "name": "ExpressCard",
+      "value": "快递卡片"
+    },
+    {
+      "name": "ExpressCardDesc",
+      "value": "快递追踪互动卡片"
+    },
+    {
+      "name": "SportsCard",
+      "value": "运动卡片"
+    },
+    {
+      "name": "SportsCardDesc",
+      "value": "运动健康互动卡片"
+    },
+    {
+      "name": "MusicCard",
+      "value": "音乐卡片"
+    },
+    {
+      "name": "MusicCardDesc",
+      "value": "音乐播放互动卡片"
+    },
+    {
+      "name": "WeatherCard",
+      "value": "天气卡片"
+    },
+    {
+      "name": "WeatherCardDesc",
+      "value": "天气互动卡片"
+    },
+    {
+      "name": "SmartHomeCard",
+      "value": "智能中控"
+    },
+    {
+      "name": "SmartHomeCardDesc",
+      "value": "智能家居中控卡片"
+    }
+  ]
+}

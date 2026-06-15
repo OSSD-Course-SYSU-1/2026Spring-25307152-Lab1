@@ -13,32 +13,28 @@
  * limitations under the License.
  */
 
-import formBindingData from '@ohos.app.form.formBindingData';
-import formManager from '@ohos.app.form.formManager';
-import Want from '@ohos.app.ability.Want';
-
 export default class FormUtils {
-  static requestSleepLiveCard(): void {
-    console.log('Request Sleep Live Card');
+  static requestSleepLiveCard() {
+    console.log('[FormUtils] Request Sleep Live Card');
   }
 
-  static requestExpressLiveCard(): void {
-    console.log('Request Express Live Card');
+  static requestExpressLiveCard() {
+    console.log('[FormUtils] Request Express Live Card');
   }
 
-  static requestSportsLiveCard(): void {
-    console.log('Request Sports Live Card');
+  static requestSportsLiveCard() {
+    console.log('[FormUtils] Request Sports Live Card');
   }
 
-  static requestMusicLiveCard(): void {
-    console.log('Request Music Live Card');
+  static requestMusicLiveCard() {
+    console.log('[FormUtils] Request Music Live Card');
   }
 
-  static requestWeatherLiveCard(): void {
-    console.log('Request Weather Live Card');
+  static requestWeatherLiveCard() {
+    console.log('[FormUtils] Request Weather Live Card');
   }
 
-  static requestSmartHomeLiveCard(): void {
-    console.log('Request Smart Home Live Card');
+  static requestSmartHomeLiveCard() {
+    console.log('[FormUtils] Request SmartHome Live Card');
   }
 }
