@@ -3,9 +3,11 @@ HVIGOR_VERSION=4.0.2
 HVIGOR_APP_HOME=$(dirname "$0")
 HVIGOR_WRAPPER_DIR="${HVIGOR_APP_HOME}/hvigor"
 HVIGOR_WRAPPER_JAR="${HVIGOR_WRAPPER_DIR}/hvigor-wrapper.jar"
+
 if [ ! -f "$HVIGOR_WRAPPER_JAR" ]; then
     echo "ERROR: HVIGOR_WRAPPER_JAR not found."
     echo "Please sync project in DevEco Studio to download hvigor wrapper."
     exit 1
 fi
+
 node "${HVIGOR_WRAPPER_DIR}/hvigor-wrapper.js" "$@"
